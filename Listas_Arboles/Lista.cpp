@@ -70,7 +70,7 @@ void Lista::removerFinal(){
 void Lista::removerInicio(){
 	Elemento* temp = this->inicial;
 	this->inicial = this->inicial->siguiente;
-	delete temp;
+	//delete temp;
 }
 
 ostream & operator<<(ostream & out, Lista & l) {

@@ -7,7 +7,7 @@ class Lista {
 
 	friend ostream & operator<<(ostream &, Lista &);
 
-private:
+protected:
 	Elemento* inicial;
 	Elemento* final;
 	int contador;
@@ -23,7 +23,7 @@ public:
 
 	void removerFinal();
 	void removerInicio();
-	void remover(int);
+	void remover(int); 
 };
 
 ostream & operator<<(ostream &, Lista &);
